@@ -1,0 +1,182 @@
+/* Ensure smooth transition for background color changes */
+.navbar {
+  transition: background-color 0.5s ease;
+}
+.fullnavbar:hover {
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Style for Navbar links */
+.navbar-light .navbar-nav .nav-link {
+  color: #007B6E; /* Default link color */
+}
+
+/* Navbar brand image size */
+.navbar-brand img {
+  height: 35px;
+}
+
+
+
+/* Remove border from Navbar toggle button */
+button.navbar-toggler {
+  border: none;
+}
+
+/* Style for Navbar when scrolled past 5% */
+.navbar.scrolled {
+  background-color: white !important; /* Background color when scrolled */
+  color: #007B6E; /* Text color for better contrast on white background */
+}
+
+/* Style for Navbar when past the Hero Section */
+.navbar.past-hero {
+  /* Background color when past Hero Section */
+  color: white; /* Text color when background is dark */
+}
+
+/* Ensure the hero section doesn't overlap the fixed Navbar */
+.hero-section {
+  position: relative; /* Ensures the hero section does not interfere with fixed Navbar */
+  z-index: 1; /* Keeps the hero section behind the Navbar */
+}
+
+/* Additional styling for buttons if needed */
+button.navbar-toggler {
+  border: none; /* Removes the default border for the toggle button */
+}
+
+/* Additional styling for Button in Navbar */
+.navbar .btn-warning {
+  background-color: #007B6E; /* Button background color */
+  border: none; /* Removes border from the button */
+  border-radius: 50px; /* Makes button corners rounded */
+  color: white; /* Button text color */
+}
+
+
+/* Dropdown Menu for Hire Developers */
+.hire-developers-menu .row {
+  width: auto; /* Adjust width as needed */
+
+}
+
+.hire-developers-menu .col-md-3 {
+  padding: 30px; /* Add padding around each column */
+}
+
+.hire-developers-menu strong {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #007B6E;
+}
+
+/* Align the dropdown to the left */
+.dropdown-menu.hire-developers-menu {
+  right:auto; /* Override the default right alignment */
+  left: 0; /* Align dropdown to the left */
+  transform: translateX(-70%); /* Shift the dropdown left by its full width */
+}
+
+/* Style for Industries Dropdown */
+.dropdown-menu.industries-menu {
+  width: 100%; /* Full width of the parent */
+  min-width: 620px; /* Maximum width for larger screens */
+  padding: 20px; /* Padding inside the dropdown menu */
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+}
+
+/* Align Dropdown Menu */
+.dropdown-menu.industries-menu {
+  right: auto; /* Override default right alignment */
+  left: 0; /* Align dropdown to the left */
+  transform: translateX(-50%); /* Remove any horizontal shift */
+}
+
+
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 1200px) {
+  .dropdown-menu.hire-developers-menu {
+    width: 100%; /* Full width on smaller screens */
+    min-width: 980px;
+    transform: translateX(-55%); /* Adjust horizontal shift */
+  }
+}
+
+@media screen and (min-width:1000px){
+  .hire-developers-menu .row {
+    width: 1000px; /* Adjust width as needed */
+  
+  }
+}
+
+@media (max-width: 991px) {
+  
+  .dropdown-menu.hire-developers-menu {
+    min-width: 750px;
+    transform: translateX(-50%);
+    padding: 10px;
+  }
+
+  .hire-developers-menu .col-md-3 {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 810px) {
+  .dropdown-menu.hire-developers-menu {
+    min-width: 300px; /* Adjust width for smaller screens */
+    transform: translateX(0%); /* No horizontal shift */
+    padding: 10px; /* Reduced padding */
+  }
+
+  .hire-developers-menu .row {
+    flex-direction: column; /* Stack columns vertically */
+  }
+
+  .hire-developers-menu .col-md-3 {
+    padding: 15px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+  .dropdown-menu.industries-menu {
+    width: 100%; /* Full width of the parent */
+    min-width: 500px;/* Full width on smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+    transform: translateX(0%); /* Remove any horizontal shift */
+  }}
+/* Responsive adjustments */
+@media (max-width: 810px) {
+  .dropdown-menu.industries-menu {
+    width: 100%; /* Full width of the parent */
+    min-width: 300px;/* Full width on smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+    transform: translateX(0%); /* Remove any horizontal shift */
+  }
+  
+  .dropdown-menu.industries-menu .row {
+    flex-direction: column; /* Stack columns vertically */
+  }
+  
+  .dropdown-menu.industries-menu .col-md-3 {
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+}
+
+
+
+.badge {
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+  border-radius: 20px;
+}
+
+

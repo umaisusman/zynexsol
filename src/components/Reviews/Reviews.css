@@ -1,0 +1,39 @@
+.reviews-container {
+  display: flex;
+  justify-content: center; 
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 2rem 1rem;
+}
+
+.testimonial-card {
+  transition: transform 0.3s ease;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+.card-image-container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card-image-container .rounded-circle {
+  width: 100px;
+  height: 100px;
+}
+
+.rating {
+  font-size: 1.5rem;
+  color: #f39c12;
+}
+
+.star {
+  color: #f39c12;
+  font-size: 1.1rem;
+}

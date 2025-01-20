@@ -1,0 +1,45 @@
+.ppc-management-section {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+}
+
+.ppc-management-section h2 {
+    font-weight: bold;
+    color: #172b4d;
+    margin-bottom: 20px;
+}
+
+.ppc-management-section p {
+    color: #6c757d;
+    margin-bottom: 40px;
+}
+
+.service-cards {
+    min-height: 200px;
+    /* Adjust as necessary */
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.service-cards .icon-wrapper {
+    font-size: 4rem;
+    color: #007B6E;
+
+}
+
+/* .service-card:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+} */
+
+.service-cards .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #172b4d;
+}
+
+.service-cards .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}

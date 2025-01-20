@@ -1,0 +1,27 @@
+.hire-developers-sectionOne h2 {
+    font-weight: 700;
+    color: black;
+  }
+  
+  .hire-developers-section .developer-icon {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .hire-developers-section .card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .hire-developers-section .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hire-developers-section .card-body {
+    padding: 1.5rem;
+  }
+  
+  .hire-developers-section .btn-warning {
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+  }

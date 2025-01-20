@@ -1,0 +1,56 @@
+.business-models-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .business-models-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0a0a29;
+  }
+  
+  .blue-background {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background-color: #007B6E; /* Adjust to match your blue color */
+    z-index: -1;
+    border-radius: 10px;
+  }
+  
+  .model-cards {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  .model-card {
+    margin-top: 110px;
+  }
+  
+  .model-icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .compare-pricing-button {
+    margin-top: 50px;
+    width: 20%;
+    background-color: #ffcc00; /* Adjust to match your button color */
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .compare-pricing-button:hover {
+    background-color: #e6b800;
+  }
+  

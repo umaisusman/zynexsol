@@ -1,0 +1,204 @@
+/* Footer base styles */
+footer {
+    background-color: #001f1f; /* Dark background */
+    color: #FFFFFF; /* White text color */
+    padding: 50px 0; /* More padding for a spacious look */
+    font-family: 'Arial', sans-serif;
+    animation: fadeIn 1.5s ease;
+    position: relative;
+    z-index: 1;
+    overflow: hidden; /* Ensures content doesn't overflow */
+}
+
+footer::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at center, #1a1a1a, #1a1a1a 70%);
+    z-index: -1;
+    opacity: 0.7;
+    transform: rotate(45deg);
+}
+
+footer h5, footer h6 {
+    color: #007B6E; /* Bright blue heading color */
+    position: relative;
+    font-weight: bold;
+    text-transform: uppercase; /* Make headings uppercase for emphasis */
+    margin-bottom: 20px;
+}
+
+footer .details{
+    border: 2px solid hsla(0, 0%, 100%, .267);
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 18px 15px;
+    margin: 5px 7px;
+    width: 270px;
+    height: 380px;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px 0;
+    color: #FFFFFF; /* White text color */
+    font-size: 1em;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+footer .icon{
+    border: 1px solid hsla(0, 0%, 100%, .267);
+    font-size: 42px;
+    padding: 10px;
+    border-radius: 50%;
+    color:#007B6E;
+
+    &:hover{
+        background-color: black;
+        color: white;
+        cursor:pointer;
+        border: none;
+    }
+}
+
+footer a.text-dark {
+    color: #FFFFFF; /* White link color */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+footer a.text-dark:hover {
+    text-decoration: underline;
+    color: #007B6E; /* Bright blue on hover */
+}
+
+/* Social icons */
+footer .d-flex .fa {
+    transition: transform 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    font-size: 1.7em; /* Larger icons */
+    color: #FFFFFF; /* White icon color */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+footer .d-flex .fa:hover {
+    transform: rotate(360deg) scale(1.1); /* Rotate and scale icon on hover */
+    color: #007B6E; /* Change icon color on hover */
+    box-shadow: 0 0 10px rgba(0, 132, 178, 0.5);
+}
+
+/* Flag images */
+footer img {
+    width: 25px; /* Slightly larger flag images */
+    margin-right: 12px;
+    border-radius: 10%; /* Fully rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add subtle shadow */
+}
+
+footer .flag-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer .flag-container p {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+/* Remove default list style and bullets */
+footer ul.list-unstyled{
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the list items */
+footer ul.list-unstyled li{
+    margin-bottom: 12px; /* Spacing between items */
+    position: relative;
+    padding-left: 30px; /* Space for custom bullet */
+    color: #FFFFFF; /* White text color */
+    font-weight: 500;
+    font-size: 1em; /* Adjust font size */
+    line-height: 1.6; /* Line height for readability */
+}
+
+/* Custom bullet style */
+
+
+/* Add hover effect to list items */
+footer ul.list-unstyled li:hover {
+    background-color: rgba(0, 132, 178, 0.1); /* Light blue background on hover */
+    border-radius: 5px; /* Rounded corners */
+    padding-left: 35px; /* Adjust padding to accommodate bullet */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+
+/* Divider */
+footer hr {
+    border-color: #007B6E; /* Bright blue divider */
+    margin-top: 40px;
+    opacity: 0.7; /* Subtle divider */
+}
+
+/* Footer bottom row */
+footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    color: #FFFFFF; /* White text color */
+    font-size: 0.9em;
+    text-transform: uppercase; /* Uppercase for footer bottom */
+    letter-spacing: 1px; /* Increase letter spacing */
+}
+
+footer .footer-bottom p {
+    margin: 0;
+}
+
+footer .footer-bottom a {
+    margin-left: 15px;
+    color: #FFFFFF; /* White text color */
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+footer .footer-bottom a:hover {
+    color: #007B6E; /* Bright blue color on hover */
+    text-shadow: 0 0 5px #007B6E; /* Glow effect on hover */
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes bounceIn {
+    from { transform: translateY(-10px); }
+    to { transform: translateY(0); }
+}
+
+footer .d-flex .fa {
+    animation: bounceIn 0.6s ease;
+}
+
+/* Media queries */
+@media (max-width: 767px) {
+    footer .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .footer-bottom a {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}

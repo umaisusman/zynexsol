@@ -1,0 +1,15 @@
+.servicesCardsone .card:hover {
+    background-color: rgb(35, 92, 86);
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+.servicesCardsone .Card{
+    height: 50%;
+}
+  .servicesCardsone .card-title {
+    font-size: 1.25rem;
+  }
+  
+ .servicesCardsone .card-text {
+    font-size: 0.95rem;
+  }

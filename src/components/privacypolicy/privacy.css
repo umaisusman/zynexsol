@@ -1,0 +1,102 @@
+.privacy-policy-container .bg-dark {
+    background-color: #0d1117 !important;
+}
+  
+.privacy-policy-container h1 {
+    font-size: 3rem;
+    transition: color 0.5s ease;
+}
+  
+.privacy-policy-container h1:hover {
+    color: #007bff;
+}
+  
+.privacy-policy-container a {
+    text-decoration: none;
+    position: relative;
+    color: #007bff !important;
+}
+  
+.privacy-policy-container a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #007bff;
+    transition: width 0.3s ease, right 0.3s ease;
+}
+  
+.privacy-policy-container a:hover::after {
+    width: 100%;
+    right: 0;
+}
+  
+.privacy-policy-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    animation: fadeIn 1s ease-in-out;
+}
+  
+.privacy-policy-container .text-muted {
+    color: #6c757d !important;
+}
+  
+.privacy-policy-container .text-primary {
+    color: #007bff !important;
+}
+  
+.privacy-policy-container button {
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.privacy-policy-container button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 15px rgba(0, 123, 255, 0.3);
+}
+  
+@media (max-width: 768px) {
+    .privacy-policy-container h1 {
+        font-size: 2.5rem;
+    }
+  
+    .privacy-policy-container p {
+        font-size: 1rem;
+    }
+  
+    .privacy-policy-container button {
+        font-size: 0.9rem;
+    }
+}
+  
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+  
+.privacy-policy-container .container-fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 150% 80%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

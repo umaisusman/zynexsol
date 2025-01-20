@@ -1,0 +1,13 @@
+.HireDevelopers-container {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+.HireDevelopers-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.HireDevelopers-container p {
+    font-size: 1.2rem;
+}

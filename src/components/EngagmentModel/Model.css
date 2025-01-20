@@ -1,0 +1,50 @@
+/* Model.css */
+
+/* Container Styling */
+.container-custom {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Row Styling */
+.row-custom {
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* Image Styling */
+.img-custom {
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.img-custom:hover {
+    transform: scale(1.05);
+}
+
+/* Specific Column Styling */
+.col-custom {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .container-custom {
+        padding: 1.5rem;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .img-custom {
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .img-custom {
+        width: 80%;
+    }
+}

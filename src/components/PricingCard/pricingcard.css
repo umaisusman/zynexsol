@@ -1,0 +1,169 @@
+/* General Styling for the Container */
+.cardthree {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+/* Button Styling */
+.btn-price {
+    background-color: #007B6E;
+    font-size: 20px;
+    border-radius: 50px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    padding: 12px 24px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 10px rgba(13, 182, 103, 0.4);
+}
+
+.btn-price:hover {
+    background-color: #007B6E;
+    transform: translateX(-50%) scale(1.05);
+}
+
+/* Card Styling */
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Header Styling */
+.card-header {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1rem;
+    background: linear-gradient(135deg, #00b23b, #1a1a1a);
+    color: #FFFFFF;
+    height: 20vh;
+}
+
+.card-header h5 {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.card-header p {
+    margin-bottom: 0;
+    font-size: 0.95rem;
+}
+
+/* Icons in the Card Header */
+.card-header .fa-icon {
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+/* Card Body Styling */
+.card-body ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card-body li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+    color: #333;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 8px;
+}
+
+.card-body li:last-child {
+    border-bottom: none;
+}
+
+/* Card Footer and Form Elements */
+.card-footer {
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+}
+
+.card-footer h6 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #007B6E;
+}
+
+.card-footer .form-control {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: border-color 0.3s;
+}
+
+.card-footer .form-control:focus {
+    border-color: #007B6E;
+    box-shadow: 0 0 8px rgba(0, 132, 178, 0.3);
+}
+
+.card-footer .btn {
+    border-radius: 30px;
+    padding: 12px 20px;
+    background-color: #007B6E;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 132, 178, 0.4);
+    width: 100%;
+}
+
+.card-footer .btn:hover {
+    background-color: #007B6E;
+    transform: scale(1.05);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .card-header {
+        padding: 1.5rem;
+    }
+
+    .card-footer h6 {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-header h5 {
+        font-size: 1.1rem;
+    }
+
+    .card-header p {
+        font-size: 0.85rem;
+    }
+
+    .card-footer h6 {
+        font-size: 0.9rem;
+    }
+
+    .btn-price {
+        font-size: 18px;
+        padding: 10px 18px;
+    }
+}

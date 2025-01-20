@@ -1,0 +1,24 @@
+.why-choose-us {
+    padding: 50px 15px;
+    background-color: #f9fafb;
+}
+
+.icon-container {
+    font-size: 2.3rem;
+    transition: color 0.3s ease;
+}
+
+.card:hover .icon-container {
+    color: #00aaff;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 0.9rem;
+    color: #666;
+}

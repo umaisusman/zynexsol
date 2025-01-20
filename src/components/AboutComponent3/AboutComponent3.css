@@ -1,0 +1,23 @@
+.AboutCardOne .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .AboutCardOne .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .AboutCardOne h1 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .AboutCardOne p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .AboutCardOne .card-title {
+    color: #007B6E;
+    font-weight: bold;
+  }
+  

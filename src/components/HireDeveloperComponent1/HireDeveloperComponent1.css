@@ -1,0 +1,38 @@
+.hire-developers-section {
+  background-color: rgb(13, 9, 43); 
+  color: #fff; /* Text color */
+  
+}
+
+.icon-check {
+  color: #ffc107; /* Gold color for the check icon */
+  margin-right: 10px;
+}
+
+ul li {
+  font-size: 1.1rem;
+}
+
+.code-quality {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.stars {
+  font-size: 1.2rem;
+  color: #ffc107;
+}
+
+.hire-developer-btn {
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 20px;
+}
+
+.hire-developer-btn:hover {
+  background-color: #fff;
+  color: #0a0c2a;
+}

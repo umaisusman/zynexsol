@@ -1,0 +1,79 @@
+/* Container Styles */
+.px-5 {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+  }
+  
+  /* Animated Title and Description */
+  .animated-title {
+    font-size: 2.5rem;
+    color: #5e6770;
+  }
+  
+  .animated-description {
+    font-size: 1.25rem;
+    color: #070707;
+  }
+  
+  /* Icon Container */
+  .icon-container {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .icon-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon-style {
+    color: #28a745;
+  }
+  
+  /* Responsive Image */
+  .responsive-image {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-size: 2rem;
+    color: #00060b;
+    margin-bottom: 15px;
+  }
+  
+  .section-subtitle {
+    font-size: 1.1rem;
+    color: #030404;
+    margin-bottom: 30px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .animated-title {
+      font-size: 2rem;
+    }
+  
+    .animated-description {
+      font-size: 1rem;
+    }
+  
+    .section-title {
+      font-size: 1.75rem;
+    }
+  
+    .section-subtitle {
+      font-size: 1rem;
+    }
+  
+    .icon-container {
+      padding: 15px;
+    }
+  }
+  

@@ -1,0 +1,31 @@
+.services-grid {
+    background-color: #f1f2f5;
+    padding: 50px 15px;
+    width: 100%;
+}
+
+.service-card {
+    background-color:#00aa9a;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+.service-card:hover {
+    background: #007B6E; /* Gradient from bright yellow to gold */
+}
+
+.service-icon {
+    font-size: 3rem;
+    width: 190px;
+    height: 160px;
+    color: #00aaff;
+}
+
+.text-muted {
+    color: #adb5bd !important;
+}
+.Tiltleicons {
+    font-size: 25px;
+}

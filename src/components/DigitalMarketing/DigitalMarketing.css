@@ -1,0 +1,237 @@
+
+.design-services-section .container {
+    padding: 2rem;
+  
+}
+
+.design-services-section .headerText {
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    color: #007bff;
+}
+
+.design-services-section .mainHeading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.design-services-section .paragraph {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #6c757d;
+}
+
+.design-services-section .link {
+    color: #007bff;
+}
+
+.design-services-section .benefitsList {
+    list-style-type: none;
+    padding-left: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+
+.design-services-section .benefitsList li {
+    margin-bottom: 0.5rem;
+    color: #212529;
+}
+
+.design-services-section .button {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    background-color: #007bff;
+    border: none;
+    width: 100%;
+}
+
+.img-dg{
+    width: 100%;
+    height: auto;
+}
+
+.design-services-section .image {
+    max-width: 100%;
+}
+
+
+/* GraphicDesignSection.css */
+
+.design-services-section .graphic-design-section {
+    padding: 40px 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.design-services-section .left-section h1 {
+    font-weight: bold;
+    color: #172b4d;
+    margin-bottom: 20px;
+}
+
+.design-services-section .left-section p {
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.design-services-section .left-section a {
+    color: #007B6E;
+    text-decoration: underline;
+}
+
+.design-services-section .quote-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.design-services-section .promises {
+    display: flex;
+    flex-direction: column;
+}
+
+.design-services-section .promise-item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.design-services-section .icon {
+    font-size: 1.5rem;
+    color: #007B6E;
+    margin-right: 15px;
+}
+
+.design-services-section .promise-item h5 {
+    font-weight: 600;
+    color: #172b4d;
+    margin-bottom: 10px;
+}
+
+.design-services-section .promise-item p {
+    color: #6c757d;
+}
+
+.design-services-section .image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .design-services-section .left-section h1 {
+        font-size: 1.75rem;
+    }
+
+    .design-services-section .quote-button {
+        font-size: 0.9rem;
+    }
+
+    .design-services-section .promise-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .design-services-section .icon {
+        font-size: 1.25rem;
+    }
+
+    .design-services-section .promise-item h5 {
+        font-size: 1.25rem;
+    }
+
+    .design-services-section .promise-item p {
+        font-size: 0.9rem;
+    }
+}
+
+.design-services-section .lead-gen-services {
+    background-color: #f8f3e4; /* Adjust background as needed */
+  }
+  
+  .design-services-section .service-icon {
+    color: #22292c; /* Adjust icon color */
+  }
+  
+  .design-services-section .service-col {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .design-services-section .service-col:hover {
+    transform: translateY(-10px);
+  }
+  
+  @media (max-width: 768px) {
+    .design-services-section .service-col {
+      text-align: center;
+    }
+  }
+  
+  .ebook-offer {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+  }
+  
+  .offer-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .offer-title span {
+    color: #e30613;
+  }
+  
+  .offer-description {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+  }
+  
+  .features-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features-list li {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .check-icon {
+    color: #007B6E;
+    margin-right: 0.5rem;
+    font-size: 20px;
+  }
+  
+  .action-buttons .get-started-btn {
+    background-color: #007B6E;
+    border: none;
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+    margin-right: 1rem;
+  }
+  
+  .action-buttons .contact-btn {
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+    border-color: #e30613;
+  }
+  
+  .action-buttons .contact-btn:hover {
+    background-color: #e30613;
+    color: #fff;
+  }
+  

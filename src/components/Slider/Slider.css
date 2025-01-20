@@ -1,0 +1,190 @@
+
+/* Carousel Control Arrows Styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  filter: invert(100%);
+}
+
+/* Customizing the Portfolio Button */
+.slider-content button {
+  align-self: start;
+  background-color: #007B6E; /* Existing background color */
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.slider-content button:hover {
+  background-color: white;
+  color: black; /* Change text color on hover */
+}
+
+
+/* Image Styling */
+.image-section img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Slider Content Styling */
+  .slider-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .slider-content h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .slider-content button {
+    align-self: start;
+  }
+  
+  /* Carousel Transition Effects */
+  .carousel-fade .carousel-item {
+    transition: opacity 0.8s ease-out; /* Controls the fade duration */
+    opacity: 0; /* Start with the image hidden */
+  }
+  
+  .carousel-item.active {
+    opacity: 1; /* When the item is active, it should be visible */
+  }
+  
+  /* Indicator Styling */
+  .carousel-indicators li {
+    background-color: #000;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #007bff;
+  }
+  
+  
+  /* Custom Fade-in and Fade-out Classes */
+  .fade-out {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-item.active .fade-out {
+    opacity: 0;
+  }
+  
+  .carousel-item.active .fade-in {
+    opacity: 1;
+  }
+  /* Container for the tech stack */
+/* Container for the tech stack */
+.tech-stack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allows wrapping to the next line if there are too many items */
+  font-family: 'Poppins', sans-serif; /* Sleek and modern font */
+  font-size: 18px;
+  color: #333;
+  background: radial-gradient(circle, #e0eaff, #f7f9fc); /* Radial gradient background */
+  padding: 35px; /* Generous padding for spacious feel */
+  border-radius: 20px; /* More rounded corners */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* Deep shadow for floating effect */
+  margin: 20px 0;
+  gap: 25px; /* Increased gap for a clean look */
+  border: 2px solid #d1d5db; /* Subtle border for definition */
+  transition: background 0.6s ease, transform 0.4s ease; /* Smooth transitions */
+}
+
+/* Title styling */
+/* Container for the tech stack */
+.tech-stack {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allows wrapping to the next line if there are too many items */
+  font-family: 'Poppins', sans-serif; /* Sleek and modern font */
+  font-size: 18px;
+  color: #333;
+  background: radial-gradient(circle, #e0eaff, #f7f9fc); /* Radial gradient background */
+  padding: 35px; /* Generous padding for spacious feel */
+  border-radius: 20px; /* More rounded corners */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* Deep shadow for floating effect */
+  margin: 20px 0;
+  gap: 10px; /* Increased gap for a clean look */
+  border: 2px solid #d1d5db; /* Subtle border for definition */
+  transition: background 0.6s ease, transform 0.4s ease; /* Smooth transitions */
+  align-items: center; /* Center items vertically */
+}
+
+/* Title styling */
+.tech-stack::before {
+  content: "🛠️";
+  margin-top: 10px;
+  font-weight: 700;
+  color: #2c3e50; /* Deep blue-gray color */
+  display: block;
+  margin-bottom: 25px; /* Increased margin for better spacing */
+  font-size: 26px; /* Larger font size for prominence */
+  text-transform: uppercase; /* Uppercase text for impact */
+  letter-spacing: 2px; /* Increased letter spacing for readability */
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+}
+
+/* Individual tech item styling */
+.tech-stack .tech-item {
+  margin-bottom: 10px;
+  background: #89b8ed; /* Vibrant teal color */
+  color: #080808;
+  padding: 5px 5px; /* Adjusted padding for better visual balance */
+  border-radius: 40px; /* Fully rounded corners for a pill shape */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Pronounced shadow for depth */
+  font-size: 12px; /* Optimal font size for readability */
+  text-align: center; /* Center text inside items */
+  font-weight: 600; /* Bold text for emphasis */
+  transition: background-color 0.4s ease, box-shadow 0.4s ease, transform 0.4s ease, filter 0.4s ease; /* Smooth transitions */
+  cursor: pointer; /* Pointer cursor for clickable items */
+  display: flex; /* Flexbox for centering text */
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+}
+
+/* Hover effect for tech items */
+.tech-stack .tech-item:hover {
+  background-color: #164da0; /* Slightly darker teal on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+  filter: brightness(1.2); /* Brighten the item on hover */
+  animation: bounce 0.6s; /* Bounce animation on hover */
+}
+
+/* Bounce animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .tech-stack {
+    padding: 20px; /* Reduced padding for smaller screens */
+    gap: 15px; /* Reduced gap for better fit */
+  }
+  
+  .tech-stack .tech-item {
+    font-size: 14px; /* Slightly smaller font size */
+    padding: 10px 15px; /* Adjusted padding for smaller screens */
+  }
+}

@@ -1,0 +1,31 @@
+.First-continer .cardWrapper {
+  transition: transform 0.2s ease-in-out;
+}
+
+.First-continer .cardWrapper:hover {
+  transform: scale(1.05);
+}
+
+.First-continer .serviceCard {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.First-continer .serviceCard:hover {
+  background-color: #ffffff;
+}
+
+.First-continer .icon {
+  font-size: 2.5rem;
+  color: #000;
+  transition: color 0.2s ease-in-out;
+}
+
+.First-continer .cardWrapper:hover .icon {
+  color: var(--hover-color);
+}
+.First-continer .CardSize23{
+  height: 300px;
+}
+.First-continer .CardSize23 :hover{
+  background-color: rgb(127, 172, 255);
+}

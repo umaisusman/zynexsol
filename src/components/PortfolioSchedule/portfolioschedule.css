@@ -1,0 +1,139 @@
+/* CSS for call-to-action section */
+.mt-5 .call-to-action {
+    background: #FFFFFF; /* White base background */
+    margin: 20px 0;
+    padding: 60px 20px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center; /* Center text and inline elements */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center vertically if height is dynamic */
+    min-height: 300px; /* Adjust if needed for better centering */
+}
+
+.mt-5 .call-to-action::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 132, 178, 0.2), rgba(26, 26, 26, 0.2));
+    filter: blur(15px);
+    z-index: -1;
+    animation: backgroundMotion 6s infinite linear;
+}
+
+.mt-5 .call-to-action-content {
+    position: relative;
+    z-index: 1;
+}
+
+.mt-5 .call-to-action h3 {
+    font-size: 2.5rem;
+    color: #007B6E;
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: slideIn 1s ease-out;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.mt-5 .call-to-action h4 {
+    font-size: 1.75rem;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+    animation: slideIn 1.5s ease-out;
+}
+
+.mt-5 .call-to-action h5.highlighted-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background: linear-gradient(45deg, #007B6E, #007B6E);
+    -webkit-background-clip: text;
+    background-clip: text;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    animation: glow 1.5s infinite, textSlide 1s ease-out;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.mt-5 .call-to-action .animated-button {
+    background-color: #007B6E;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    display: inline-block; /* Ensure button is inline for center alignment */
+}
+
+.mt-5 .call-to-action .animated-button:hover {
+    background-color: #007B6E;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 10px #007B6E, 0 0 20px #007B6E, 0 0 30px #007B6E;
+    }
+    50% {
+        text-shadow: 0 0 20px #007B6E, 0 0 30px #007B6E, 0 0 40px #007B6E;
+    }
+    100% {
+        text-shadow: 0 0 10px #007B6E, 0 0 20px #007B6E, 0 0 30px #007B6E;
+    }
+}
+
+@keyframes backgroundMotion {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 100%;
+    }
+}
+
+@keyframes textSlide {
+    0% {
+        transform: translateY(10px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

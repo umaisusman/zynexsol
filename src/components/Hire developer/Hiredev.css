@@ -1,0 +1,26 @@
+.text-blue {
+    color: #007B6E; /* Or any orange shade you prefer */
+  }
+.blue{
+    border-radius: 30px;
+    padding: 12px 20px;
+    background-color: #007B6E;
+    color: #FFFFFF;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 132, 178, 0.4);
+    width: 200px;
+
+    &:hover{
+        background-color: white;
+        color: black;
+        transform: scale(1.05);
+    }
+
+}
+
+.para{
+    font-size: 20px;
+    font-weight: 2rem;
+    margin: 25px 0;
+}

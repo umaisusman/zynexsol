@@ -1,0 +1,139 @@
+.why-hire-section {
+    background-color: #f9f9f9;
+  }
+  
+  .why-hire-section h2 {
+    color: #0d1b2a;
+    font-weight: bold;
+  }
+  
+  .hire-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .hire-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cbdaf0;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .icon-style {
+    font-size: 2rem;
+  }
+  
+  .why-hire-section p {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .icons-one ul li::before {
+    content: "✔️";
+    color: #0d6efd;
+    margin-right: 8px;
+  }
+  
+
+
+
+
+
+  .try-before-section {
+    background: linear-gradient(135deg, #b7ebad 0%, #01194f 100%);
+    padding: 60px 0;
+    color: white;
+    position: relative;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #eeeff1;
+  }
+  
+  .get-started-btn {
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: transparent;
+    transition: all 0.3s ease;
+  }
+  
+  .get-started-btn:hover {
+    background-color: #fff;
+    color: #0a1444;
+    transform: translateY(-5px);
+  }
+  
+  .book-call-link {
+    font-size: 1rem;
+    color: #b0b8d2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .book-call-link:hover {
+    color: #fff;
+  }
+  
+  /* Adding a background shape for more creativity */
+  .try-before-section::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    width: 300px;
+    height: 300px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    z-index: 0;
+    animation: floating 5s ease-in-out infinite;
+  }
+  
+  .try-before-section::after {
+    content: '';
+    position: absolute;
+    top: 20%;
+    right: -10%;
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    z-index: 0;
+    animation: floating 6s ease-in-out infinite;
+  }
+  
+  @keyframes floating {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  

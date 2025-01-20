@@ -1,0 +1,7 @@
+.service-card00:hover {
+    transform: scale(1.05);
+  }
+  
+.service-card:hover{
+  background-color: #007B6E;
+}
