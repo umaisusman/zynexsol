@@ -254,7 +254,7 @@ const CoursePage = () => {
       <Row className="justify-content-center">
         <Col xs={12} sm={10} md={6} lg={5} className="mb-4">
           <img
-            src="/carcalicty/Certificate By Zynex Solution.png" // Replace with your actual certificate image path
+            src="https://res.cloudinary.com/dilv7vm1z/image/upload/v1737649157/Green_and_Grey_Bordered_Appreciation_Certificate_7_xet6vb.png" // Replace with your actual certificate image path
             alt="Certificate"
             fluid
             rounded
@@ -269,7 +269,7 @@ const CoursePage = () => {
         </Col>
         <Col xs={12} sm={10} md={6} lg={5} className="mb-4">
           <img
-            src="/carcalicty/#007B6E and Grey Bordered Appreciation Certificate (5).png" // Replace with your actual certificate image path
+            src="https://res.cloudinary.com/dilv7vm1z/image/upload/v1737649156/Green_and_Grey_Bordered_Appreciation_Certificate_5_afidd6.png" // Replace with your actual certificate image path
             alt="Certificate"
             fluid
             rounded
@@ -286,7 +286,7 @@ const CoursePage = () => {
       <Row className="justify-content-center">
         <Col xs={12} sm={10} md={6} lg={5} className="mb-4">
           <img
-            src="/carcalicty/#007B6E and Grey Bordered Appreciation Certificate (8).png" // Replace with your actual certificate image path
+            src="https://res.cloudinary.com/dilv7vm1z/image/upload/v1737649161/Certificate_By_Zynex_Solution_t6md6v.png" // Replace with your actual certificate image path
             alt="Certificate"
             fluid
             rounded
@@ -301,7 +301,7 @@ const CoursePage = () => {
         </Col>
         <Col xs={12} sm={10} md={6} lg={5} className="mb-4">
           <img
-            src="/carcalicty/#007B6E and Grey Bordered Appreciation Certificate (7).png" // Replace with your actual certificate image path
+            src="https://res.cloudinary.com/dilv7vm1z/image/upload/v1737649160/Green_and_Grey_Bordered_Appreciation_Certificate_8_ewswq9.png" // Replace with your actual certificate image path
             alt="Certificate"
             fluid
             rounded
